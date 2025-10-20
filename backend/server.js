@@ -18,7 +18,7 @@ app.use(cors({
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true
 }));
-app.options("*", cors());
+
 
 // Example route
 app.get("/", (req, res) => {
